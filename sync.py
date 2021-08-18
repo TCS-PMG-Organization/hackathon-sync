@@ -3,7 +3,8 @@ from bson.objectid import ObjectId
 import requests, urllib3, json, time
 
 #Main_Client = MongoClient('mongodb://localhost:27017')
-Main_Client = MongoClient('mongodb://admin:admin@mongodb-36-rhel7.edge-satellite-main.svc.cluster.local:27017')
+#Main_Client = MongoClient('mongodb://admin:admin@mongodb-36-rhel7.edge-satellite-main.svc.cluster.local:27017')
+Main_Client = MongoClient('mongodb://admin:admin@main-bankdb.test-open-banking.svc:27017')
 Main_BankDB = Main_Client['Main_BankDB']
 
 Main_Accounts = Main_BankDB['Main_Accounts']
