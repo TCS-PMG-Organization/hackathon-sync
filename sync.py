@@ -30,7 +30,8 @@ url8 = "https://158.176.180.100:8243/update_edge_ccard_from_main/1.0"
 
 api_url = "http://edge-open-banking-api-ibm-cloud-edge-banking-app.satellite-cluster-6fb0b86391cd68c8282858623a1dddff-0000.upi.containers.appdomain.cloud"
 '''
-api_url = "http://edge-open-api-fs-cloud-app-test-open-banking.mgmt-pot01-cluster-1fa025a294811d2b43b68d6ffd4c8b58-i000.us-east.containers.appdomain.cloud"
+#api_url = "http://edge-open-api-fs-cloud-app-test-open-banking.mgmt-pot01-cluster-1fa025a294811d2b43b68d6ffd4c8b58-i000.us-east.containers.appdomain.cloud"
+api_url = "http://172.21.91.136:5000"
 
 url1 = api_url+"/get_unprocessed_account"
 url2 = api_url+"/update_edgedb_from_maindb"
