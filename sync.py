@@ -34,7 +34,7 @@ api_url = "http://edge-open-banking-api-ibm-cloud-edge-banking-app.satellite-clu
 #api_url = "http://edge-open-api-fs-cloud-app-test-open-banking.mgmt-pot01-cluster-1fa025a294811d2b43b68d6ffd4c8b58-i000.us-east.containers.appdomain.cloud"
 #api_url = "http://172.21.91.136:5000"
 #api_url = "http://edge-open-api-fs-cloud-app.test-open-banking:5000"
-api_url = "http://172.21.147.98:5000"
+api_url = "http://172.21.248.26:5000"
 
 url1 = api_url+"/get_unprocessed_account"
 url2 = api_url+"/update_edgedb_from_maindb"
